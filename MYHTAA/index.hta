@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="x-ua-compatible" content="ie=9">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>My HTA App</title>
+		<HTA:APPLICATION ID="oMyApp"
+		BORDER="thin"
+		INNERBORDER="no"
+		SCROLL="auto"
+		CAPTION="yes"
+		icon = "abico.ico"
+		navigable="yes" 
+		SYSMENU="yes"
+		WINDOWSTATE="maximize">
+		</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/Menu.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!-- Scripts -->
+			<script type="text/javascript" src="assets/js/accessdb.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/jquery-1.9.1.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>	
+			<script src="assets/js/parent2child.js"></script>	
+	</head>
+	<body onload="return loadProcessesss()">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<nav id="leftnave" class="leftnave">
+							<a href="#menu2">Admin Menu</a>
+						</nav>
+						<h1><a href="index.hta"  target="_self">My HTA App</a></h1>
+						
+						<nav class="rightnave">
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+	
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><img src="images/logo.png" alt="FNMR" width="72px" height="72px"></div>
+							<h2>My HTA App</h2><p></p>
+						</div>
+					</section>
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.hta" target="_self">Home</a></li>
+								<li><a href="index.hta" target="_self" onclick="return openfile('User Manual.pptx')" >User Manual</a></li>
+							</ul>
+							<a href="#" class="close">&nbsp;&nbsp;&nbsp;</a>
+						</div>
+					</nav>
+				<!-- Admin Menu -->
+					<nav id="menu2">
+						<div class="inner">
+							<h2>Admin Menu</h2>
+							<ul class="links">
+							<li><a href="adminpanel.hta" target="_self">Admin Panel</a></li>
+							<li><a href="User Manual.pptx" target="_self">Admin Manual</a></li>
+							</ul>
+							<a href="#" class="close">&nbsp;&nbsp;&nbsp;</a>
+						</div>
+					</nav>
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<div id="ProcessesFA" >
+						</div>
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Linked Attachments</h2>
+									<p>Used to get download forms</p>
+									<section class="features">
+										<div id="TablesFA">
+										</div>
+									</section>
+								</div>
+							</section>
+					</section>
+			</div>
+	</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="x-ua-compatible" content="ie=9">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>My HTA Admin Panel</title>
+		<HTA:APPLICATION ID="oMyApp"
+		BORDER="thin"
+		INNERBORDER="no"
+		icon = "abico.ico"
+		SCROLL="yes"
+		CAPTION="yes"
+		SHOWINTASKBAR="yes"
+		navigable="yes" 
+		SYSMENU="yes"
+		WINDOWSTATE="maximize">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/SkelGrid.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/Menu.css" />
+		
+		
+		
+		
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!-- Scripts -->
+			<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+			<script type="text/javascript" src="assets/js/accessdb.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/parent2child.js"></script>
+			<script src="assets/js/checkadmin.js"></script>
+			<script src="assets/js/fillformdata.js"></script>
+			<script src="assets/js/stringfix.js"></script>
+			<script type="text/javascript" src="assets/js/jquery.hovercard.min.js"></script>
+			
+	</head>
+	<body onload="return checkadmin()">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<nav id="leftnave" class="leftnave">
+							<a href="#menu2">Admin Menu</a>
+						</nav><h1><a href="index.hta"  target="_self">My HTA Admin Panel</a></h1>
+						<nav class="rightnave">
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><img src="images/cpic.png" alt="FNMR" width="72px" height="72px"></div>
+							<h2>Administrator Control Panel</h2>
+						</div>
+					</section>
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.hta"  target="_self">Home</a></li>
+								<li><a href="index.hta" target="_self" onclick="return openfile('User Manual.pptx')" >User Manual</a></li>
+							</ul>
+							<a href="#" class="close">&nbsp;&nbsp;&nbsp;</a>
+						</div>
+					</nav>
+				<!-- Admin Menu -->
+					<nav id="menu2">
+						<div class="inner">
+							<h2>Admin Menu</h2>
+							<ul class="links">
+							<li><a href="adminpanel.hta" target="_self">Admin Panel</a></li>
+							<li><a href="User Manual.pptx">Admin Manual</a></li>
+							</ul>
+							<a href="#" class="close">&nbsp;&nbsp;&nbsp;</a>
+						</div>
+					</nav>
+				<!-- FormBox -->
+					<nav id="pop4form">
+						<div id="fillp4f" onscroll="return scrollandmove()" class="inner" id="" style="overflow-y: auto; "">
+										
+						
+						</div>
+					</nav>
+					
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return fillAddProcess()"	class="image"><img src="images/Add.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Add Process</h2><p>Used to Create Options on the Main Page.</p>
+										<a href="#" href="#pop4form" onmouseover="return fillAddProcess()" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							<!-- Two -->
+							<section id="one" class="wrapper spotlight style2">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return fillEditProcess()" class="image"><img src="images/Info.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Edit Process</h2>
+										<p>Used to Edit Options on the Main Page.</p>
+										<a href="#" href="#pop4form" onmouseover="return fillEditProcess()" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							<!-- Three -->
+							<section id="one" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return DelProcess()" class="image"><img src="images/Sub.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Delete Process</h2>
+										<p>Used to Delete Options off of the Main Page.</p>
+										<a href="#" href="#pop4form" onmouseover="return DelProcess()" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							<!-- Hidden -->
+							<section id="one" class="wrapper spotlight style4">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return HideProcess()" class="image"><img src="images/Hide.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Toggle Visibility of A Process</h2>
+										<p>Used to Hide a Process so it doesn't appear on the Main Page. Or Viseversa</p>
+										<a href="#" href="#pop4form" onmouseover="return HideProcess()" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							<!-- Four -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return TableCreate()" class="image"><img src="images/CreateT.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Create A Table</h2>
+										<p>Creates a table for a Process.</p>
+										<a href="#" href="#pop4form" onmouseover="return TableCreate()" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							<!-- Five -->
+							<section id="one" class="wrapper spotlight style2">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return TableName(0)" class="image"><img src="images/EditT.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Change Name of A Table</h2>
+										<p>Edits a table for a Process.</p>
+										<a href="#pop4form" onmouseover="return TableName(0)" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							<!-- Five -->
+							<section id="one" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return TableName(1)" class="image"><img src="images/EditT.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Change Column Names</h2>
+										<p>Edits a table for a Process.</p>
+										<a href="#pop4form" onmouseover="return TableName(1)" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							<!-- Five -->
+							<section id="one" class="wrapper spotlight style4">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return TableName(2)" class="image"><img src="images/EditT.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Add Columns</h2>
+										<p>Edits a table for a Process.</p>
+										<a href="#pop4form" onmouseover="return TableName(2)" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							<!-- Ten -->
+							<section id="one" class="wrapper spotlight style5">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return addremautofill()" class="image"><img src="images/EditT.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Add/Remove Autofill from Another Table</h2>
+										<p>Gets a text box to draw from another table or removes it.</p>
+										<a href="#pop4form" onmouseover="return addremautofill()" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							<!-- Six -->
+							<div id="DAT">
+							<section id="one" class="wrapper spotlight style6">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return TableDelete()"  class="image"><img src="images/DeleteT.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Delete A Table</h2>
+										<p>Delete a Process Table.</p>
+										<a href="#pop4form" onmouseover="return TableDelete()" class="special">Learn more</a>
+									</div>
+								</div>
+							</section></div>
+							<!-- Seven -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return TableObs()" class="image"><img src="images/StopT.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Discontinue A Table</h2>
+										<p>Stops the Table from showing up in the application but the table stays in the database.</p>
+										<a href="#pop4form" onmouseover="return TableObs()" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							
+							<!-- Seven -->
+							<section id="one" class="wrapper spotlight style2">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return TableLink()" class="image"><img src="images/Link.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Link A Table to another process</h2>
+										<p>Links the table to another process.</p>
+										<a href="#pop4form" onmouseover="return TableLink()" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							<!-- Seven -->
+							<section id="one" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return SaveAttachment()" class="image"><img src="images/attach.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Add Attachment</h2>
+										<p>Creates a link to attachment on the main page.</p>
+										<a href="#pop4form" onmouseover="return SaveAttachment()" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+							<section id="one" class="wrapper spotlight style4">
+								<div class="inner">
+									<a href="#pop4form" onmouseover="return AddAdminOEn()" class="image"><img src="images/administrator.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Add Administrator / Enable Delete</h2>
+										<p>Adds an Administrator to the database to access more control. Or Change Visibility of the Delete Option</p>
+										<a href="#pop4form" onmouseover="return AddAdminOEn()" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+					</section>
+			</div>
+	</body>
+</html>

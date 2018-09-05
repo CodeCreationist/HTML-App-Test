@@ -1,0 +1,91 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+
+/* Skel Grid */
+/* This grid is how we set up more sophisticated layouts
+dont worry here are some links explaining what skel does so you can 
+understand what you need to do or learn to either update or change 
+the program. 
+https://github.com/n33/skel the skel github page has a few different 
+pages of documentation that you can look at to understand what is going on.
+ A great example of what is going on can be found here
+ http://getskeleton.com/#examples */
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0%;}
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.66666666666667% }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;          }
+  
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.66666666666667%; margin-left: 0;}
+  .two-thirds.column              { width: 65.3333333333%; }
+  .ten.column{ width: 82.6666666667%; margin-left:0; }
+
+  .one-half.column                { width: 48%; margin-left: 0;}
+  .oone-half.column			{ width: 48%; margin-left: 4%;}
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+@media (min-width: 1200px) {}

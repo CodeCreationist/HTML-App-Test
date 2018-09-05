@@ -1,0 +1,464 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+/* Navigation for Menus */
+.leftnave {left: 0.7em;}
+.rightnave{right: 0.7em;}		
+				#header nav a[href="#menu2"] {
+					text-decoration: none;
+					transition: background-color 0.2s ease-in-out;
+					border-radius: 10px;
+					box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+					
+				}
+
+					#header nav a[href="#menu2"]:before {
+						-webkit-font-smoothing: antialiased;
+						font-family: Calabri, Arial;
+						font-style: normal;
+						font-weight: normal;
+						text-transform: none !important;
+					}
+
+					#header nav a[href="#menu2"]:before {
+						content: '\f0c9';
+					}
+
+					#header nav a[href="#menu2"]:hover {
+						background-color: rgba(255, 255, 255, 0.025);
+					}
+
+					#header nav a[href="#menu2"]:active {
+						background-color: rgba(255, 255, 255, 0.075);
+					}
+		@media screen and (max-width: 640px) {
+
+			#header nav a[href="#menu2"] {
+				width: 4em;
+				white-space: nowrap;
+				text-indent: 4em;
+				position: relative;
+			}
+
+				#header nav a[href="#menu2"]:before {
+					width: inherit;
+					position: absolute;
+					top: 0;
+					right: 0;
+					text-indent: 0;
+					text-align: left;
+					margin-right: 0;
+					padding-left: 1.25em;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+						#header nav a[href="#menu2"] {
+							box-shadow: none;
+							padding: 0 1em;
+							border-radius: 0;
+						}
+
+							#header nav a[href="#menu2"]:hover, #header nav a[href="#menu2"]:active {
+								background-color: inherit;
+							}
+
+		}
+/* Menus  */
+/* Menu for The Navigation Menu on right side */
+	#page-wrapper {
+		transition: filter 0.25s ease;
+	}
+
+	#menu {
+		background: rgba(0, 0, 0, 0.8);
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		visibility: hidden;
+		width: 100%;
+	}
+
+		#menu .inner {
+			padding: 2.5em 1.5em 0.5em 1.5em ;
+			transition: opacity 0.35s ease, transform 0.35s ease;
+			overflow-scrolling: touch;
+			background: #4c5c96;
+			border-radius: 5px;
+			display: inline-block;
+			max-width: 100%;
+			opacity: 0;
+			position: relative;
+			width: 18em;
+			margin: 1% auto;
+		}
+
+		#menu h2 {
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			padding-bottom: 1em;
+		}
+
+		.close {
+			background-image: url("images/close.svg");
+			background-repeat: no-repeat;
+			background-size: 1em 1em;
+			border: 0;
+			height: 1em;
+			width: 1em;
+			outline:none;
+			overflow:hidden;
+			color: transparent;
+			font-size:30px;
+			position: absolute;
+			line-height:20px;
+			right: 0.25%;
+			top: 0.25%;
+			
+		}
+		.addsearch {
+			background-image: url("images/plus.svg");
+			background-repeat: no-repeat;
+			background-size: 1em 1em;
+			border: 0;
+			height: 1em;
+			width: 1em;
+			outline:none;
+			overflow:hidden;
+			color: transparent;
+			font-size:30px;
+			position: absolute;
+			line-height:20px;
+			left: 0.25%;
+			top: 0.25%;
+			
+		}
+		.export {
+			background-image: url("images/Share.svg");
+			background-repeat: no-repeat;
+			background-size: 1em 1em;
+			border: 0;
+			height: 1em;
+			width: 1em;
+			outline:none;
+			overflow:hidden;
+			color: transparent;
+			font-size:30px;
+			position: absolute;
+			line-height:20px;
+			right: 0.25%;
+			bottom: 0.25%;
+			
+		}
+
+		#menu .links {
+			list-style: none;
+			margin-bottom: 1.5em;
+			padding: 0;
+		}
+
+			#menu .links li {
+				padding: 0;
+			}
+
+				#menu .links li a {
+					border-radius: 5px;
+					border: 0;
+					display: block;
+					font-family: Calabri, Arial;
+					font-size: 1em;
+					font-weight: 200;
+					letter-spacing: 0.1em;
+					line-height: 1.85em;
+					padding: 0.75em 0;
+					text-transform: uppercase;
+				}
+
+					#menu .links li a:hover {
+						background: #45558d;
+					}
+
+		@media screen and (max-width: 736px) {
+
+			#menu .inner {
+				max-height: 100%;
+				overflow-y: auto;
+				overflow-x: hidden;
+			}
+
+				
+
+		}
+
+	body.is-menu-visible #page-wrapper {
+		filter: blur(1.5px);
+	}
+
+	body.is-menu-visible #menu {
+		pointer-events: auto;
+		opacity: 1;
+		visibility: visible;
+	}
+
+		body.is-menu-visible #menu .inner {
+			transform: translateY(0);
+			opacity: 1;
+		}
+/* Menu for Admin Panel */
+	#menu2 {
+		background: rgba(0, 0, 0, 0.8);
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		visibility: hidden;
+		width: 100%;
+	}
+
+		#menu2 .inner {
+			padding: 2.5em 1.5em 0.5em 1.5em ;
+			background: #4c6c96;
+			border-radius: 5px;
+			display: inline-block;
+			max-width: 100%;
+			opacity: 0;
+			position: relative;
+			width: 18em;
+			margin: 8% auto;
+		}
+
+		#menu2 h2 {
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			padding-bottom: 1em;
+		}
+
+
+		#menu2 .links {
+			list-style: none;
+			margin-bottom: 1.5em;
+			padding: 0;
+		}
+
+			#menu2 .links li {
+				padding: 0;
+			}
+
+				#menu2 .links li a {
+					border-radius: 5px;
+					border: 0;
+					display: block;
+					font-family: Calabri, Arial;
+					font-size: 1em;
+					font-weight: 200;
+					letter-spacing: 0.1em;
+					line-height: 1.85em;
+					padding: 0.75em 0;
+					text-transform: uppercase;
+				}
+
+					#menu .links li a:hover {
+						background: #45558d;
+					}
+
+		@media screen and (max-width: 736px) {
+
+			#menu2 .inner {
+				max-height: 100%;
+				overflow-y: auto;
+				overflow-x: hidden;
+			}
+
+
+		}
+
+	body.is-menu2-visible #page-wrapper {
+		filter: blur(1.5px);
+	}
+
+	body.is-menu2-visible #menu2 {
+		pointer-events: auto;
+		opacity: 1;
+		visibility: visible;
+	}
+
+		body.is-menu2-visible #menu2 .inner {
+			transform: translateY(0);
+			opacity: 1;
+		}
+		/* Menu for Pop4TablePanel */
+	#pop4table {
+		background: rgba(0, 0, 0, 0.8);
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		visibility: hidden;
+		width: 100%;
+	}
+
+		#pop4table .inner {
+			padding: 1.0em 1.5em 1.0em 1.5em ;
+			background: #4f6469;
+			border-radius: 5px;
+			display: inline-block;
+			max-width: 100%;
+			max-height: 94%;
+			opacity: 0;
+			position: relative;
+			width: 99%;
+			margin: 4% auto;
+		}
+
+		#pop4table h2 {
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			padding-bottom: 1em;
+		}
+
+
+		#pop4table .links {
+			list-style: none;
+			margin-bottom: 1.5em;
+			padding: 0;
+		}
+
+			#pop4table .links li {
+				padding: 0;
+			}
+
+				#pop4table .links li a {
+					border-radius: 5px;
+					border: 0;
+					display: block;
+					font-family: Calabri, Arial;
+					font-size: 1em;
+					font-weight: 200;
+					letter-spacing: 0.1em;
+					line-height: 1.85em;
+					padding: 0.75em 0;
+					text-transform: uppercase;
+				}
+
+					#pop4table .links li a:hover {
+						background: #45558d;
+					}
+
+		@media screen and (max-width: 736px) {
+
+			#pop4table .inner {
+				max-height: 100%;
+				overflow-y: auto;
+				overflow-x: hidden;
+			}
+
+
+		}
+
+	body.is-pop4table-visible #page-wrapper {
+		filter: blur(1.5px);
+	}
+
+	body.is-pop4table-visible #pop4table {
+		pointer-events: auto;
+		opacity: 1;
+		visibility: visible;
+	}
+
+		body.is-pop4table-visible #pop4table .inner {
+			transform: translateY(0);
+			opacity: 1;
+		}
+/* Menu for Pop4form Panel */
+	#pop4form {
+		background: rgba(0, 0, 0, 0.8);
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		text-align: center;
+		top: 0;
+		visibility: hidden;
+		width: 100%;
+	}
+
+		#pop4form .inner {
+			padding: 1.0em 1.5em 1.0em 1.5em ;
+			background: #4f6477;
+			border-radius: 5px;
+			display: inline-block;
+			max-width: 100%;
+			max-height: 94%;
+			opacity: 0;
+			position: relative;
+			width: 80%;
+			margin: 4% auto;
+		}
+
+		#pop4form h2 {
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			padding-bottom: 1em;
+		}
+
+
+		#pop4form .links {
+			list-style: none;
+			margin-bottom: 1.5em;
+			padding: 0;
+		}
+
+			#pop4form .links li {
+				padding: 0;
+			}
+
+				#pop4form .links li a {
+					border-radius: 5px;
+					border: 0;
+					display: block;
+					font-family: Calabri, Arial;
+					font-size: 1em;
+					font-weight: 200;
+					letter-spacing: 0.1em;
+					line-height: 1.85em;
+					padding: 0.75em 0;
+					text-transform: uppercase;
+				}
+
+					#pop4form .links li a:hover {
+						background: #45558d;
+					}
+
+		@media screen and (max-width: 736px) {
+
+			#pop4form .inner {
+				max-height: 100%;
+				overflow-y: auto;
+				overflow-x: hidden;
+			}
+
+
+		}
+
+	body.is-pop4form-visible #page-wrapper {
+		filter: blur(1.5px);
+	}
+
+	body.is-pop4form-visible #pop4form {
+		pointer-events: auto;
+		opacity: 1;
+		visibility: visible;
+	}
+
+		body.is-pop4form-visible #pop4form .inner {
+			transform: translateY(0);
+			opacity: 1;
+		}
+.Title4Form{
+	font-size: 1.1em;
+	text-transform: none;
+}

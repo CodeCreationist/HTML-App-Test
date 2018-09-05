@@ -1,0 +1,135 @@
+
+Wed Sep 05 2018 09:29:30 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:31 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:31 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:32 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:32 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:32 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:32 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:32 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:33 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:33 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:33 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:33 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:34 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:34 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:34 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:34 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:43 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:43 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:43 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:44 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:44 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:44 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:44 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:45 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:45 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:45 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson
+
+Wed Sep 05 2018 09:29:45 GMT-0600 (Canada Central Standard Time)
+Error: Syntax error (missing operator) in query expression 'ParentProcessID= AND Obsolete='F''.
+parent2child.js had an error in loadTables() function
+End of Error for USER : tyson

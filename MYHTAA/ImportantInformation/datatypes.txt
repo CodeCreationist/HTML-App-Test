@@ -1,0 +1,8 @@
+// Text -- 202
+// Memo -- 203
+// Long -- 3
+// Double -- 5
+// Currency -- 6
+// AutoNumber -- 3 
+// Date/Time -- 7
+// Check box -- 11

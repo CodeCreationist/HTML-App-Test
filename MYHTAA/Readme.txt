@@ -1,0 +1,1 @@
+To access the admin panel add your computers account user name to the abcon.mdb in the Admin Table
